@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* styles for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* styles for the nav bar*/
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+
+a:hover{
+    background-color: purple;
+    color: black;
+}
+
+/* styles for the main */
+
+main {
+    background-color: black;
+    color: white;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* styles for the articles */
+
+article > h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.video {
+    width: 97%;
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* style for the aside */
+
+aside > h3 {
+    text-align: center;
+    padding: 15px 0;
+}
