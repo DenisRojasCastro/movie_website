@@ -1,74 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
-
+body {
+  background-color: #182d3a;
+}
 /* styles for the header */
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: black;
-    color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #181e22;
+  color: white;
+  font-family: "Anton", sans-serif;
 }
 
 /* styles for the nav bar*/
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #181e22;
 }
 
 nav > a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Bebas Neue", cursive;
+  width: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #3f799b;
+  box-shadow: 41px 41px 82px #182d3a, -41px -41px 82px #5eb5e8;
 }
 
-a:hover{
-    background-color: purple;
-    color: black;
+a:hover {
+  background-color: rgba(148, 149, 238, 0.137);
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ;
 }
 
 /* styles for the main */
 
 main {
-    background-color: black;
-    color: white;
-    
+  background-color: #181e22;
+  color: white;
 }
 
 h2 {
-    text-align: center;
-    padding: 10px 0;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Bebas Neue", cursive;
 }
 
 /* styles for the articles */
 
 article > h3 {
-    text-align: center;
-    padding: 15px 0;
+  text-align: center;
+  padding: 15px 0;
+  font-family: "Teko", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 p {
-    text-align: justify;
-    padding: 0 10px;
+  text-align: justify;
+  padding: 0 20px;
+  margin-bottom: 25px;
 }
 
 .video {
-    width: 97%;
-    margin: auto;
+  width: 89%;
+  margin: auto;
+
 }
 
 iframe {
-    width: 100%;
+  width: 100%;
 }
 
 /* style for the aside */
 
 aside > h3 {
-    text-align: center;
-    padding: 15px 0;
+  text-align: center;
+  padding: 15px 0;
+  font-family: "Teko", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
 }
